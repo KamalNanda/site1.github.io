@@ -1,0 +1,171 @@
+aside{ 
+    float: left; 
+    width : 120px; 
+    padding : 30px 0 0 30px; 
+}
+tr:nth-child(odd){
+    background-color:white;
+}
+tr:first-child{
+    background-color:grey;
+}
+tr:nth-child(even){
+    background-color:red;
+}
+table{
+    border-spacing:0;
+}
+th,td{
+    padding:15px;
+    text-align:center;}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+[type='radio']{margin:0px 0px 0px 30px}
+li{
+    font-size:18px; 
+    font-family: monospace;}
+h3{
+    font-size:25px;
+}
+main{
+    padding-left: 30px;
+}
+h4{
+    font-size:25px;
+}
+footer{
+    padding: 6px 30px 5px 40px; 
+    background: #d6d6d6;
+    font-size: :8px; 
+    font-family: "Lucida Sans Unicode";  
+}
+h1{
+    font-size:50px; 
+    text-align:center;
+    animation: moveinRight 1s ;
+}
+
+h2{
+    font-size:30px;
+}
+
+
+/* -------- Classes ---------*/
+.nav{
+    background-color:beige;
+    padding: 10px 0px 10px 0px;
+    margin-top: 0px;
+    display: flex;
+    width: 100%;
+   justify-content: space-around;
+}
+.nav-div{
+    padding-left: 10px;
+    
+ }
+.wok{
+    justify-self:end;
+}
+.revew{
+    justify-self : end;
+}
+.skil{
+    justify-self: end;
+}
+.edu{
+    justify-self:end;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 150px 300px 200px 200px ;
+    grid-column-gap: 50px;
+}
+.grid-image{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 250px 250px 250px;
+}
+.text{
+    padding-left: 10px;
+}
+.rs{
+    padding left: 40px; 
+}
+.background-silver{
+    background-color:silver;
+}
+.container{
+
+    margin-left: 250px;
+}
+.red-text{
+    color:red;
+}
+.white-text{
+    color:white;
+}
+.blue-text{
+    color:blue;
+}
+
+.background-black{
+    background-color:black
+}
+.small-image{
+    width:50px;
+}
+    a:hover{
+    color:darkorange;
+}
+.img{
+    width:200px;
+    
+}
+.border{
+    border-color:black;
+    border-width:px;
+    border-style:solid;
+    border-radius:10px;
+}
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+   margin: 5px 3px 0px 3px;
+}
+.full-card{
+    border: 2px solid #000000 ; 
+    margin:10px 5px; 
+    padding :4x ; 
+    width: 260px; 
+}
+.background-d6{
+    background-color: #d6d6d6;
+    padding-top: 5px;
+    box-shadow: 3px 3px 3px 3px;
+}
+.ani{
+animation: moveinleft 1s;
+}
+@keyframes moveinRight{
+    0%{
+        opacity: 0;
+        transform: translateX(-120px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+@keyframes moveinleft{
+    0%{
+        opacity: 0;
+        transform: translateX(240px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
